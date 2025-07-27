@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Artical Analyzer</title>
+</head>
+<body>
+<form action="{% url '2ndpage' %}" method="post">
+    <b></b>
+    {% csrf_token %}
+    <textarea cols='60' rows='20' name='article'></textarea>
+    <b></b>
+    <input type="submit" name="Submit">
+
+
+
+
+
+
+
+</form>
+</body>
+</html>
